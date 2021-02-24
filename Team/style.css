@@ -184,7 +184,7 @@ body {
 svg {
 
     width: 50%;
-    min-width: 340px;
+    min-width: 350px;
     min-height: 100px;
 
 }
@@ -192,18 +192,27 @@ svg {
 	    max-height: 200px;
 }
 .logo img {
-	min-width:130px;
     width: 20%;
     margin: 0px;
 }
 .logo img:hover{
 	transition: 2s;
 	animation: rotate 1.5s ease-in ;
-	animation-iteration-count:2 ;
 }
 @keyframes rotate {
   from {transform:rotate(0deg);}
   to {transform:rotate(360deg);}
+}
+@media only screen and (max-width: 600px) {
+	.logo img {
+    width: 40%;
+}
+.logo{
+	 height: 90px;
+}
+/* .svg{
+	margin: 0px;
+} */
 }
 
 /* .members img {
