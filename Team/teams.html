@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Members</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="./style.css">
@@ -11,24 +12,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Texturina:wght@500&display=swap" rel="stylesheet">
 </head>
 
-<body  style="background-image: url('slide2.webp');">
-
+<body style="background-image: url('slide2.webp');">
     <section class="members" id="center">
-
-        <svg viewBox="0 0 600 150">
-            <!-- Symbol-->
-            <symbol id="s-text">
-              <text text-anchor="middle" x="50%" y="50%" dy=".35em">senior EXECUTIVES</text>
-            </symbol>
-            <!-- Duplicate symbols-->
-            <use class="text" xlink:href="#s-text"></use>
-            <use class="text" xlink:href="#s-text"></use>
-            <use class="text" xlink:href="#s-text"></use>
-            <use class="text" xlink:href="#s-text"></use>
-            <use class="text" xlink:href="#s-text"></use>
-          </svg>
-        <div class="container-snrs" >
-            
+          <div class="logo">
+                <a href="/" class="navbar-brand"><img src="/assets/img/logo.png" alt=""></a>
+            </div>
+           <!-- <img src="/assets/img/logo.png" alt=""> --> 
+        <div class="text">
+            <svg viewBox="0 0 600 150">
+                <!-- Symbol-->
+                <symbol id="s-text">
+                    <text text-anchor="middle" x="50%" y="50%" dy=".35em" class="exec-heading">senior EXECUTIVES</text>
+                </symbol>
+                <!-- Duplicate symbols-->
+                <use class="text" xlink:href="#s-text"></use>
+                <use class="text" xlink:href="#s-text"></use>
+                <use class="text" xlink:href="#s-text"></use>
+                <use class="text" xlink:href="#s-text"></use>
+                <use class="text" xlink:href="#s-text"></use>
+            </svg>
+        </div>
+        <div class="container-snrs">
             <div class="cover atvImg">
                 <div class="atvImg-layer" data-img="./img-snrs/AKARSH.webp"></div>
             </div>
@@ -113,7 +117,7 @@
             <div class="lazy cover atvImg">
                 <div class="atvImg-layer" data-img="./img-snrs/SAI.webp"></div>
             </div>
-              <div class="lazy cover atvImg">
+            <div class="lazy cover atvImg">
                 <div class="atvImg-layer" data-img="./img-snrs/SREELAYA.webp"></div>
             </div>
             <div class="lazy cover atvImg">
@@ -126,18 +130,18 @@
                 <div class="atvImg-layer" data-img="./img-snrs/VATSAV.webp"></div>
             </div>
         </div>
-        <svg viewBox="0 0 600 150">
-            <!-- Symbol-->
-            <symbol id="j-text">
-              <text text-anchor="middle" x="50%" y="50%" dy=".35em">JUNIOR EXECUTIVES</text>
-            </symbol>
-            <!-- Duplicate symbols-->
-            <use class="text" xlink:href="#j-text"></use>
-            <use class="text" xlink:href="#j-text"></use>
-            <use class="text" xlink:href="#j-text"></use>
-            <use class="text" xlink:href="#j-text"></use>
-            <use class="text" xlink:href="#j-text"></use>
-          </svg>
+        <div class="exec-heading"><svg viewBox="0 0 600 150">
+                <!-- Symbol-->
+                <symbol id="j-text">
+                    <text text-anchor="middle" x="50%" y="50%" dy=".35em">JUNIOR EXECUTIVES</text>
+                </symbol>
+                <!-- Duplicate symbols-->
+                <use class="text" xlink:href="#j-text"></use>
+                <use class="text" xlink:href="#j-text"></use>
+                <use class="text" xlink:href="#j-text"></use>
+                <use class="text" xlink:href="#j-text"></use>
+                <use class="text" xlink:href="#j-text"></use>
+            </svg></div>
         <div class="container-jnrs">
             <div class="lazy cover atvImg">
                 <div class="atvImg-layer" data-img="./img-jnrs/ABHAY.webp"></div>
