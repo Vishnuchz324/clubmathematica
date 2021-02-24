@@ -185,7 +185,7 @@ svg {
 
     width: 50%;
     min-width: 350px;
-    min-height: 100px;
+ /*    min-height: 100px; */
 
 }
 .logo{
@@ -210,9 +210,6 @@ svg {
 .logo{
 	 height: 90px;
 }
-/* .svg{
-	margin: 0px;
-} */
 }
 
 /* .members img {
