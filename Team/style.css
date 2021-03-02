@@ -211,6 +211,11 @@ svg {
 	 height: 90px;
 }
 }
+*@media screen and (max-hieght: 360){
+	svg{
+		min-height:100vw;
+	}
+}
 
 /* .members img {
     width: 20%;
