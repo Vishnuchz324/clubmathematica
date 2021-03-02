@@ -2,8 +2,8 @@
 
 body {
     background-color: #ffffff;
-    background-image: url("slide2.webp");
-    background-repeat: no-repeat;
+/*    background-image: url("slide2.webp");*/
+/*    background-repeat: no-repeat;*/
     background-attachment: fixed;
     background-size: cover;
 }
