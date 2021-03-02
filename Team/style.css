@@ -211,7 +211,7 @@ svg {
 	 height: 90px;
 }
 }
-*@media screen and (max-hieght: 360){
+@media screen and (max-hieght: 360){
 	svg{
 		min-height:100vw;
 	}
